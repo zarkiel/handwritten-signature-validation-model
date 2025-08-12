@@ -18,4 +18,4 @@ image2 = preprocess_image_bytes_from_file("dataset/cedar1/full_org/original_1_2.
 
 distance = float(model.predict([image1, image2])[0][0])
 
-result = distance < THRESHOLD
+result = distance <= THRESHOLD
