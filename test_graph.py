@@ -91,5 +91,5 @@ def generate_validation_report(csv_file_path):
     print("-" * 50)
     
 if __name__ == "__main__":
-    file_name = "validation_results.csv"
+    file_name = "test_results.csv"
     generate_validation_report(file_name)
